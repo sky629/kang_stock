@@ -51,13 +51,16 @@ kang_stock/
 
 ### 0. 키움 REST API 키 발급 (필수)
 
-1. [키움 Open API](https://openapi.koreainvestment.com/) 접속
+1. [키움 Open API](https://openapi.kiwoom.com/main/home) 접속
 2. 회원가입 및 로그인
-3. **마이페이지 → API 키 발급** 메뉴에서 앱 등록
+3. **API 사용신청** 메뉴에서 앱 등록
 4. **APP KEY**와 **APP SECRET** 발급
 5. **계좌번호** 확인
+6. **IP 등록** (허용된 IP에서만 API 요청 가능)
+   - 마이페이지 → IP 관리에서 사용할 서버/PC의 공인 IP 등록
 
-> ⚠️ 실전투자와 모의투자 API 키가 다릅니다. 모의투자로 먼저 테스트 권장!
+> ⚠️ 실전투자와 모의투자 API 키가 다릅니다. 모의투자로 먼저 테스트 권장!  
+> ⚠️ IP 등록 없이는 API 호출이 **거부**됩니다!
 
 ### 1. 환경 변수 설정
 
