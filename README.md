@@ -49,6 +49,16 @@ kang_stock/
 
 ## ⚙️ 설치 및 실행
 
+### 0. 키움 REST API 키 발급 (필수)
+
+1. [키움 Open API](https://openapi.koreainvestment.com/) 접속
+2. 회원가입 및 로그인
+3. **마이페이지 → API 키 발급** 메뉴에서 앱 등록
+4. **APP KEY**와 **APP SECRET** 발급
+5. **계좌번호** 확인
+
+> ⚠️ 실전투자와 모의투자 API 키가 다릅니다. 모의투자로 먼저 테스트 권장!
+
 ### 1. 환경 변수 설정
 
 ```bash
